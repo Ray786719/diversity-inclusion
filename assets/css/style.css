@@ -1,0 +1,114 @@
+/* Custom Styles */
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #f8f9fa !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5; background-color: #f8f9fa;
+  color: #000000;}
+
+h2, h3, h4, h5, h6 {font-weight: bold; color: #343a40;
+    margin-bottom: 15px; text-align: center;
+}
+
+h1 {font-weight: bold; font-size: 2.5rem; color: #ff0000;
+    margin-bottom: 15px; background-color: #f8f9fa;
+}
+
+#about,
+#best-practices,
+#resources {padding: 5px; 
+}
+
+p {font-size: 1.5rem !important;}
+
+
+.bg-white {background-color: antiquewhite; margin-top: 2px !important;}
+
+.lead {font-weight: bold; font-size: 1.15rem; color: #ff0000;
+    margin-bottom: 15px; background-color: #f8f9fa; }
+
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ff0000 !important;
+  background-color: #f8f9fa !important;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.75rem; margin-bottom: 10px !important;
+  }
+
+  .btn:hover {
+    color: #640707 !important;
+    background-color: #ff6969 !important;
+  }
+
+/* Resource buttons specific styling */
+#resources .btn {
+  color: #0066cc !important;
+}
+
+#resources .btn:hover {
+  color: #004499 !important;
+}
+
+/* Hero Section Background */
+.hero-bg {
+  background-image: url('../images/Hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  width: 1280px;
+  height: 362px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+/* Best Practices Grid Cards */
+#best-practices .row {
+  display: flex;
+  align-items: stretch;
+}
+
+#best-practices .col-md-4 {
+  display: flex;
+}
+
+#best-practices .p-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 150px;
+}
+
+#best-practices h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#best-practices p {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
